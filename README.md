@@ -101,7 +101,7 @@ The system follows a modular structure:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/Elviselly2/lms.git>
 cd learnhub-lms 
 
 ### 2.BACKEND SET UP
@@ -115,6 +115,10 @@ npm run dev
 cd backend
 npm install
 npm run dev
+
+ or 
+ ```bash
+ docker compose up --build
 
 4. Database Setup
 PostgreSQL (Docker)
